@@ -1,0 +1,20 @@
+# Core ML
+torch
+transformers==3.0.2
+numpy
+pandas
+
+# Data & Evaluation
+scikit-learn
+scipy
+
+# Training Utilities
+tqdm
+joblib
+
+# Visualization
+matplotlib
+seaborn
+
+# NLP Helpers
+tokenizers
