@@ -1,10 +1,10 @@
 # When-LLM-meets-Fuzzy-TOPSIS-for-Personnel-Selection-through-Automated-Profile-Analysis
 
 
-## 📌 Overview
-[cite_start]This repository presents a hybrid, end-to-end intelligent decision-support framework that integrates **Large Language Models (LLMs)** with **Fuzzy TOPSIS** to enable automated, fair, and explainable personnel selection[cite: 22]. [cite_start]The system transforms unstructured candidate profiles into structured, quantitative decision inputs and ranks candidates based on multiple evaluation criteria[cite: 23].
+## Overview
+This repository presents a hybrid, end-to-end intelligent decision-support framework that integrates Large Language Models (LLMs) with Fuzzy TOPSIS to enable automated, fair, and explainable personnel selection. The system transforms unstructured candidate profiles into structured, quantitative decision inputs and ranks candidates based on multiple evaluation criteria.
+The core idea is simple yet powerful: combine deep semantic understanding from LLMs with a robust multi-criteria decision-making (MCDM) technique to support expert-level hiring decisions at scale.
 
-[cite_start]**The core idea:** Combine deep semantic understanding from LLMs with a robust multi-criteria decision-making (MCDM) technique to support expert-level hiring decisions at scale[cite: 24].
 
 ---
 
