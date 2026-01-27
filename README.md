@@ -68,9 +68,8 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
-
 ```
-Key libraries include PyTorch, HuggingFace Transformers, Scikit-learn, and NumPy.
+ggg
 ---
 ##  Use Cases
 * Automated recruitment systems.
