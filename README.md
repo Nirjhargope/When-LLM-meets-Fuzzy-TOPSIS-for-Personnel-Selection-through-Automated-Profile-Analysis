@@ -13,7 +13,7 @@ This repository presents a **hybrid, end-to-end intelligent decision-support fra
 * Clear visual explainability via structured plots and diagrams
 ---
 ## System Architecture (Visual Assets)
-[cite_start]All high-level visual explanations are organized under the `assets/` directory:
+All high-level visual explanations are organized under the `assets/` directory:
 
 * **Attention Mechanism:** `assets/attention_mechanism/` — Top-level overview of the Attention head.
 * **Dataset Overview:** `assets/dataset_overview/` — Professional background distribution of candidates.
@@ -23,7 +23,7 @@ This repository presents a **hybrid, end-to-end intelligent decision-support fra
 
 ---
 
-##  Repository Structure
+## Repository Structure
 * **`assets/`**: Conceptual and analytical visualizations.
 * **`notebooks/`**: Model-wise and column-wise experiments.
 * **`results/`**: Metrics, plots, tables, and final comparisons.
@@ -33,7 +33,7 @@ This repository presents a **hybrid, end-to-end intelligent decision-support fra
 
 ---
 
-##  Models and Experiments
+## Models and Experiments
 Experiments are conducted using multiple transformer architectures:
 * **DistilRoBERTa-base** 
 * **RoBERTa-base** 
@@ -43,7 +43,7 @@ Each model is evaluated column-wise (About, Education, Experience, Skills, Overa
 
 ---
 
-##  Results & Evaluation
+## Results & Evaluation
 The `results/` directory contains:
 * Accuracy vs Loss curves.
 * Confusion matrices per column and per model.
@@ -55,7 +55,7 @@ Final decision artifacts are consolidated under `results/final_results/`.
 
 ---
 
-## ⚖️ Decision Making with Fuzzy TOPSIS
+## Decision Making with Fuzzy TOPSIS
 Fuzzy TOPSIS is employed to:
 * **Handle ambiguity** and uncertainty in candidate evaluation.
 * [cite_start]**Integrate expert-defined criteria weights**.
@@ -63,8 +63,10 @@ Fuzzy TOPSIS is employed to:
 
 ---
 
-## 🛠️ Setup & Requirements
+##  Setup & Requirements
 Install dependencies using:
 also Key libraries include PyTorch, HuggingFace Transformers, Scikit-learn, and NumPy.
 ```bash
-pip install -r requirements.txt 
+pip install -r requirements.txt
+
+---
