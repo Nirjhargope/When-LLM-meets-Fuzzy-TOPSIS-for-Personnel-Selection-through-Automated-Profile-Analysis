@@ -6,11 +6,11 @@ This repository presents a hybrid, end-to-end intelligent decision-support frame
 The core idea is simple yet powerful: combine deep semantic understanding from LLMs with a robust multi-criteria decision-making (MCDM) technique to support expert-level hiring decisions at scale.
 ---
 ## Key Contributions
-*Automated feature extraction from candidate profiles using Transformer-based LLMs
-*Column-wise semantic scoring (About, Education, Experience, Skills, Overall)
-*Integration of Fuzzy TOPSIS for uncertainty-aware decision-making
-*Expert-informed evaluation rubric and model comparison
-*Clear visual explainability via structured plots and diagrams
+*Automated feature extraction from candidate profiles using Transformer-based LLMs.
+*Column-wise semantic scoring (About, Education, Experience, Skills, Overall).
+*Integration of Fuzzy TOPSIS for uncertainty-aware decision-making.
+*Expert-informed evaluation rubric and model comparison.
+*Clear visual explainability via structured plots and diagrams.
 ---
 ## 🧠 System Architecture (Visual Assets)
 [cite_start]All high-level visual explanations are organized under the `assets/` directory[cite: 37]:
