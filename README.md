@@ -4,19 +4,14 @@
 ## Overview
 This repository presents a hybrid, end-to-end intelligent decision-support framework that integrates Large Language Models (LLMs) with Fuzzy TOPSIS to enable automated, fair, and explainable personnel selection. The system transforms unstructured candidate profiles into structured, quantitative decision inputs and ranks candidates based on multiple evaluation criteria.
 The core idea is simple yet powerful: combine deep semantic understanding from LLMs with a robust multi-criteria decision-making (MCDM) technique to support expert-level hiring decisions at scale.
-
-
 ---
-
-## 🎯 Key Contributions
-* [cite_start]**Automated feature extraction** from candidate profiles using Transformer-based LLMs[cite: 26].
-* [cite_start]**Column-wise semantic scoring** (About, Education, Experience, Skills, Overall)[cite: 27].
-* [cite_start]**Integration of Fuzzy TOPSIS** for uncertainty-aware decision-making[cite: 28].
-* [cite_start]**Expert-informed evaluation rubric** and model comparison[cite: 29].
-* [cite_start]**Clear visual explainability** via structured plots and diagrams[cite: 30].
-
+## Key Contributions
+*Automated feature extraction from candidate profiles using Transformer-based LLMs
+*Column-wise semantic scoring (About, Education, Experience, Skills, Overall)
+*Integration of Fuzzy TOPSIS for uncertainty-aware decision-making
+*Expert-informed evaluation rubric and model comparison
+*Clear visual explainability via structured plots and diagrams
 ---
-
 ## 🧠 System Architecture (Visual Assets)
 [cite_start]All high-level visual explanations are organized under the `assets/` directory[cite: 37]:
 
