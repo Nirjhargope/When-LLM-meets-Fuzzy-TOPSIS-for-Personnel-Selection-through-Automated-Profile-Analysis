@@ -58,8 +58,8 @@ Final decision artifacts are consolidated under `results/final_results/`.
 ## Decision Making with Fuzzy TOPSIS
 Fuzzy TOPSIS is employed to:
 * **Handle ambiguity** and uncertainty in candidate evaluation.
-* [cite_start]**Integrate expert-defined criteria weights**.
-* [cite_start]**Produce stable and interpretable** candidate rankings.
+* **Integrate expert-defined criteria weights**.
+* **Produce stable and interpretable** candidate rankings.
 
 ---
 
@@ -69,4 +69,6 @@ also Key libraries include PyTorch, HuggingFace Transformers, Scikit-learn, and 
 ```bash
 pip install -r requirements.txt
 
----
+```
+
+
