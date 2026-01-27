@@ -24,34 +24,34 @@ This repository presents a **hybrid, end-to-end intelligent decision-support fra
 ---
 
 ##  Repository Structure
-* **`assets/`**: Conceptual and analytical visualizations[cite: 55, 62].
-* **`notebooks/`**: Model-wise and column-wise experiments[cite: 56, 63].
-* **`results/`**: Metrics, plots, tables, and final comparisons[cite: 57, 64].
-* **`src/`**: Core source code for modeling[cite: 65].
-* **`fuzzy_topsis/`**: Fuzzy TOPSIS implementation[cite: 58, 66].
-* **`requirements.txt`**: Project dependencies[cite: 61].
+* **`assets/`**: Conceptual and analytical visualizations.
+* **`notebooks/`**: Model-wise and column-wise experiments.
+* **`results/`**: Metrics, plots, tables, and final comparisons.
+* **`src/`**: Core source code for modeling.
+* **`fuzzy_topsis/`**: Fuzzy TOPSIS implementation.
+* **`requirements.txt`**: Project dependencies.
 
 ---
 
 ##  Models and Experiments
-Experiments are conducted using multiple transformer architectures[cite: 68]:
-* **DistilRoBERTa-base** [cite: 69]
-* **RoBERTa-base** [cite: 70]
-* **LastBERT** [cite: 71]
+Experiments are conducted using multiple transformer architectures:
+* **DistilRoBERTa-base** 
+* **RoBERTa-base** 
+* **LastBERT** 
 
-Each model is evaluated column-wise (About, Education, Experience, Skills, Overall) to ensure fine-grained semantic assessment[cite: 72].
+Each model is evaluated column-wise (About, Education, Experience, Skills, Overall) to ensure fine-grained semantic assessment.
 
 ---
 
 ##  Results & Evaluation
 The `results/` directory contains:
-* Accuracy vs Loss curves[cite: 88].
+* Accuracy vs Loss curves.
 * Confusion matrices per column and per model.
 * Final TOPSIS-based rankings.
 * Expert evaluation rubric.
 * Comparative performance tables and visual summaries.
 
-Final decision artifacts are consolidated under `results/final_results/`[cite: 93, 94].
+Final decision artifacts are consolidated under `results/final_results/`.
 
 ---
 
