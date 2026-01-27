@@ -79,5 +79,6 @@ Key libraries include PyTorch, HuggingFace Transformers, Scikit-learn, and NumPy
 * Explainable AI in personnel selection.
 ---
 
-
+## Final Note
+This work demonstrates how ** LLMs can move beyond prediction into structured decision-making**, bridging the gap between unstructured human data and formal evaluation frameworks. We hope this repository inspires further research at the intersection of **NLP, explainable AI, and decision science**.
 
