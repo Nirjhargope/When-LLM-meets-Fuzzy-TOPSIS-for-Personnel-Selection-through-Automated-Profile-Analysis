@@ -13,13 +13,13 @@ This repository presents a **hybrid, end-to-end intelligent decision-support fra
 * Clear visual explainability via structured plots and diagrams
 ---
 ## System Architecture (Visual Assets)
-[cite_start]All high-level visual explanations are organized under the `assets/` directory[cite: 37]:
+[cite_start]All high-level visual explanations are organized under the `assets/` directory:
 
-* **Attention Mechanism:** `assets/attention_mechanism/` — Top-level overview of the Attention head[cite: 38, 39].
-* **Dataset Overview:** `assets/dataset_overview/` — Professional background distribution of candidates[cite: 40, 41].
-* **Exploratory Analysis:** `assets/exploratory_analysis/` — Correlation Heatmap of features and labels[cite: 42].
-* **Model Internals:** `assets/model_internals/` — Top-level overview of the Model’s internals[cite: 43].
-* **Decision Framework:** `assets/decision_framework/` — Top-level overview of the LLM-Fuzzy TOPSIS[cite: 44].
+* **Attention Mechanism:** `assets/attention_mechanism/` — Top-level overview of the Attention head.
+* **Dataset Overview:** `assets/dataset_overview/` — Professional background distribution of candidates.
+* **Exploratory Analysis:** `assets/exploratory_analysis/` — Correlation Heatmap of features and labels.
+* **Model Internals:** `assets/model_internals/` — Top-level overview of the Model’s internals.
+* **Decision Framework:** `assets/decision_framework/` — Top-level overview of the LLM-Fuzzy TOPSIS.
 
 ---
 
