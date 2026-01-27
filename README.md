@@ -65,10 +65,19 @@ Fuzzy TOPSIS is employed to:
 
 ##  Setup & Requirements
 Install dependencies using:
-also Key libraries include PyTorch, HuggingFace Transformers, Scikit-learn, and NumPy.
+
 ```bash
 pip install -r requirements.txt
 
 ```
+Key libraries include PyTorch, HuggingFace Transformers, Scikit-learn, and NumPy.
+---
+##  Use Cases
+* Automated recruitment systems
+*Decision-support tools for HR analytics
+*Research on LLM-driven MCDM frameworks
+*Explainable AI in personnel selection
+---
+
 
 
