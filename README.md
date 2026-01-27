@@ -73,10 +73,10 @@ pip install -r requirements.txt
 Key libraries include PyTorch, HuggingFace Transformers, Scikit-learn, and NumPy.
 ---
 ##  Use Cases
-* Automated recruitment systems
-*Decision-support tools for HR analytics
-*Research on LLM-driven MCDM frameworks
-*Explainable AI in personnel selection
+* Automated recruitment systems.
+* Decision-support tools for HR analytics.
+* Research on LLM-driven MCDM frameworks.
+* Explainable AI in personnel selection.
 ---
 
 
