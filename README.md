@@ -46,10 +46,10 @@ Each model is evaluated column-wise (About, Education, Experience, Skills, Overa
 ##  Results & Evaluation
 The `results/` directory contains:
 * Accuracy vs Loss curves[cite: 88].
-* Confusion matrices per column and per model[cite: 89].
-* Final TOPSIS-based rankings[cite: 90].
-* Expert evaluation rubric[cite: 91].
-* Comparative performance tables and visual summaries[cite: 92].
+* Confusion matrices per column and per model.
+* Final TOPSIS-based rankings.
+* Expert evaluation rubric.
+* Comparative performance tables and visual summaries.
 
 Final decision artifacts are consolidated under `results/final_results/`[cite: 93, 94].
 
@@ -57,9 +57,9 @@ Final decision artifacts are consolidated under `results/final_results/`[cite: 9
 
 ## ⚖️ Decision Making with Fuzzy TOPSIS
 Fuzzy TOPSIS is employed to:
-* **Handle ambiguity** and uncertainty in candidate evaluation[cite: 98].
-* [cite_start]**Integrate expert-defined criteria weights**[cite: 99].
-* [cite_start]**Produce stable and interpretable** candidate rankings[cite: 100].
+* **Handle ambiguity** and uncertainty in candidate evaluation.
+* [cite_start]**Integrate expert-defined criteria weights**.
+* [cite_start]**Produce stable and interpretable** candidate rankings.
 
 ---
 
