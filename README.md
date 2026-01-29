@@ -35,12 +35,15 @@ All high-level visual explanations are organized under the `assets/` directory:
 ---
 
 ## Models and Experiments
-Experiments are conducted using multiple LLM  model architectures:
-* **DistilRoBERTa-base** 
-* **RoBERTa-base** 
-* **LastBERT** 
+
+Experiments are conducted using multiple LLM model architectures:
+
+- **[DistilRoBERTa-base](https://huggingface.co/distilroberta-base)**
+- **[RoBERTa-base](https://huggingface.co/roberta-base)**
+- **[LastBERT](https://huggingface.co/Peraboom/LastBERT)**
 
 Each model is evaluated column-wise (About, Education, Experience, Skills, Overall) to ensure fine-grained semantic assessment.
+
 
 ---
 
