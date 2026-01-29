@@ -35,7 +35,7 @@ All high-level visual explanations are organized under the `assets/` directory:
 ---
 
 ## Models and Experiments
-Experiments are conducted using multiple transformer architectures:
+Experiments are conducted using multiple LLM  model architectures:
 * **DistilRoBERTa-base** 
 * **RoBERTa-base** 
 * **LastBERT** 
