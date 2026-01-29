@@ -1,8 +1,35 @@
-# Initialize the model
-model = LastBERTClass(num_labels=3)
+from transformers import DistilBertForSequenceClassification, AdamW
+import torch
+import torch.nn as nn
+from torch.optim import AdamW
+
+# Define the DistilRoBERTa-based model
+class DistilRobertaClass(nn.Module):
+    def __init__(self, num_labels=3):
+        super(DistilRobertaClass, self).__init__()
+        self.distilroberta = DistilBertForSequenceClassification.from_pretrained('distilroberta-base', num_labels=num_labels)
+
+    def forward(self, input_ids, attention_mask, token_type_ids=None):
+        # Forward pass through DistilRoBERTa
+        output = self.distilroberta(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+        return output.logits
+
+model = DistilRobertaClass(num_labels=3)  # I have 3 labels: Negative (0), Neutral (1), Positive (2)
+
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+
+# Set up the loss function
+criterion = nn.CrossEntropyLoss()
+
+# Set up the optimizer
+optimizer = AdamW(model.parameters(), lr=2e-5)
+
+print(model)
 
 # Use GPUs 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu"
 if torch.cuda.device_count() > 1:
     print(f"Using {torch.cuda.device_count()} GPUs")
     model = nn.DataParallel(model)
@@ -86,4 +113,5 @@ def train_and_evaluate(model, train_dataloader, val_dataloader, optimizer, crite
                 break
 
 # Train the  model on  GPUs
+
 train_and_evaluate(model, train_dataloader, val_dataloader, optimizer, criterion, epochs=19)
