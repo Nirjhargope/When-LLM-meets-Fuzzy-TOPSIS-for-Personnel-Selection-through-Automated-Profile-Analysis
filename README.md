@@ -54,7 +54,7 @@ The `results/` directory contains:
 * Final TOPSIS-based rankings.
 * Expert evaluation rubric.
 * Comparative performance tables and visual summaries.
-* Final decision artifacts are consolidated under `results/final_results/`.
+Final decision artifacts are consolidated under `results/final_results/`.
 
 <p align="center">
   <img src="results/final_results/topsis_model_comparison.png" width="45%">
